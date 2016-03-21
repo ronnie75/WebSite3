@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Caching</title>
+    <title>Caching Test</title>
 <h2>ViewState</h2>
 </head>
 <body runat="server" id="BodyTag">
