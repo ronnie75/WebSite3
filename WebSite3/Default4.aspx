@@ -6,7 +6,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Label runat="server" ID="lblHelloWorld" Text="Hello, Paris!" Font-Names="Verdana" ForeColor="Blue" meta:resourcekey="lblHelloWorld" />
+        <asp:Label runat="server" ID="lblHelloWorld" Text="Salut!" Font-Names="Verdana" ForeColor="Blue" meta:resourcekey="lblHelloWorld" />
     </form>
 </body>
 </html>

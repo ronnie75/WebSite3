@@ -21,7 +21,7 @@
      <asp:Button runat="server" id="btnSubmitForm" text="Ok" onclick="btnSubmitForm_Click" />
        </div>
 
-            Small number:<br />
+            Small PSG number:<br />
 <asp:TextBox runat="server" id="txtSmallNumber" /><br /><br />
 Big number:<br />
 <asp:TextBox runat="server" id="txtBigNumber" /><br />
