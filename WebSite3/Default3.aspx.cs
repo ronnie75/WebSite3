@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Web;
+using System.Diagnostics;
 
 public partial class Default3 : System.Web.UI.Page
 {
@@ -10,9 +11,12 @@ public partial class Default3 : System.Web.UI.Page
             NameLabel.Text = ViewState["NameOfUser"].ToString();
         else
             NameLabel.Text = "Not set yet...";
-    }
 
-    protected void SubmitForm_Click(object sender, EventArgs e)
+        Trace.Write("mon test de debug");
+    }
+            
+    
+protected void SubmitForm_Click(object sender, EventArgs e)
     {
         ViewState["NameOfUser"] = NameField.Text;
         NameLabel.Text = NameField.Text;
